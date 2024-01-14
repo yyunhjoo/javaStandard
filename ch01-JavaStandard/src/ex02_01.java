@@ -7,6 +7,7 @@ public class ex02_01 {
 		System.out.println("3+5");
 		System.out.println(3+5);
 		
+		본체랑 연결 완료
 	}
 
 }
