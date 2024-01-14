@@ -24,6 +24,7 @@ public class ex02_01 {
 		MAX_VALUE = 100;
 		//MAX_VALUE = 200;
 		//상수는 변수와 마찬가지로 '값을 저장할 수 있는 공간'이지만 변수와 달리 한번 값을 저장하면 다른값으로 변경할 수 없다.
+		System.out.println(MAX_VALUE);
 		System.out.println("==========");
 		
 	}
