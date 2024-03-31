@@ -72,23 +72,21 @@ public class ex03_03 {
 		System.out.printf("\"abc\"==\"abc\" ? %b%n", "abc"=="abc");
 		System.out.printf("\"abc\"==str1.equals(\"abc\") ? %b%n", str1.equals("abc"));
 		System.out.printf("str1.equalsIgnoreCase(\"ABC\") ? %b%n", str1.equalsIgnoreCase("ABC")); //equalsIgnoreCase" 대소문자 구분x
+		System.out.println("=====");
 		
 		//논리연산자
-		Scanner scanner = new Scanner(System.in);
-		char ch = ' ';
-		System.out.print("문자를 하나 입력하세요:");
-		
-		String input = scanner.nextLine();
-		ch = input.charAt(0);
-		
-		if('0' <= ch && ch <= '9') {
-			System.out.println("입력하신 문자는 숫자입니다.");
-		}else if (('a' <= ch && ch <= 'z') || ('A'<=ch && ch<='Z')){
-			System.out.println("입력하신 문자는 영어입니다.");
-		}else {
-			System.out.println("입력하신 문자는 숫자도 영어도 아닙니다.");
-		}
-		scanner.close();
+		/*
+		 * Scanner scanner = new Scanner(System.in); char ch = ' ';
+		 * System.out.print("문자를 하나 입력하세요:");
+		 * 
+		 * String input = scanner.nextLine(); ch = input.charAt(0);
+		 * 
+		 * if('0' <= ch && ch <= '9') { System.out.println("입력하신 문자는 숫자입니다."); }else if
+		 * (('a' <= ch && ch <= 'z') || ('A'<=ch && ch<='Z')){
+		 * System.out.println("입력하신 문자는 영어입니다."); }else {
+		 * System.out.println("입력하신 문자는 숫자도 영어도 아닙니다."); } scanner.close();
+		 */
+		System.out.println("=====");
 		
 		//조건식
 		int b1 = 10;
@@ -97,5 +95,11 @@ public class ex03_03 {
 		int absY = b2<=0 ? -b2 : b2;
 		System.out.println(absX);
 		System.out.println(absY);
+		System.out.println("=====");
+		
+		System.out.println(x=3);
+		
+		int a10 = 465;
+		System.out.println(a10-(a10%100));
 	}
 }
